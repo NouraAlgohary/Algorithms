@@ -25,7 +25,7 @@ def backtrack(candidate):
 ```
 
 #### Examples
-[NQueens (Number of solutions)](https://github.com/NouraAlgohary/Algorithms/blob/main/Backtracking/NQueens%20(Number%20of%20solutions).cpp)
+[NQueens (Number of solutions)](https://github.com/NouraAlgohary/Algorithms/tree/main/Backtracking)
 
 #### Read about Backtracking
 - [LeetCode](https://leetcode.com/explore/featured/card/recursion-ii/472/backtracking/2654/)
