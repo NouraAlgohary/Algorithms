@@ -30,3 +30,8 @@ def backtrack(candidate):
 #### Read about Backtracking
 - [LeetCode](https://leetcode.com/explore/featured/card/recursion-ii/472/backtracking/2654/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+
+## Kadane's Algorithm
+
+## Depth First Search (DFS)
