@@ -25,7 +25,9 @@ def backtrack(candidate):
 ```
 
 #### Examples
-[NQueens (Number of solutions)](https://github.com/NouraAlgohary/Algorithms/tree/main/Backtracking)
+- [NQueens (Number of solutions).cpp](https://github.com/NouraAlgohary/Algorithms/tree/main/Backtracking)
+- [Palindrome Partitioning (Number of palindrome).cpp](https://github.com/NouraAlgohary/Algorithms/blob/main/Backtracking/Palindrome%20Partitioning.cpp)
+- [Palindrome Partitioning (Number of palindrome).py](https://github.com/NouraAlgohary/Algorithms/blob/main/Backtracking/Palindrome%20Partitioning.py)
 
 #### Read about Backtracking
 - [LeetCode](https://leetcode.com/explore/featured/card/recursion-ii/472/backtracking/2654/)
