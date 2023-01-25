@@ -65,6 +65,8 @@ BFS(graph, source_node):
 ```
 
 #### Examples
+- [Same Tree.cpp](https://github.com/NouraAlgohary/Algorithms/blob/main/Breadth%20First%20Search%20(BFS)/Same%20Tree.cpp_)
+- [Same Tree.py](https://github.com/NouraAlgohary/Algorithms/blob/main/Breadth%20First%20Search%20(BFS)/Same%20Tree.py)
 
 #### Problems
 - [LeetCode](https://leetcode.com/tag/breadth-first-search/)
