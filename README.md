@@ -44,6 +44,8 @@ def backtrack(candidate):
 ## Breadth First Search (BFS)
 DFS is used for **traverse or searsh** in a tree or graph. Starting from the root node (level 0) then visiting all the nodes at the next level (level 1) before moving to the next level (level 2)
 
+![BFS](https://user-images.githubusercontent.com/103903785/214479205-a14c2dbd-e3b7-445e-86bf-ea101fb9a654.png)
+
 #### Template
 ```
 BFS(graph, source_node):                 
