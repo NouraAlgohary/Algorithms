@@ -37,3 +37,36 @@ def backtrack(candidate):
 ## Kadane's Algorithm
 
 ## Depth First Search (DFS)
+
+#### Read about Backtracking
+- [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS)
+
+## Breadth First Search (BFS)
+DFS is used for **traverse or searsh** in a tree or graph. Starting from the root node (level 0) then visiting all the nodes at the next level (level 1) before moving to the next level (level 2)
+
+#### Template
+```
+BFS(graph, source_node):                 
+      Define a Queue q
+      q.enqueue(source_node)    # inserting s in queue until all its neighbour vertices are marked.
+
+      mark source_node as visited.
+      while (q is not empty)
+           # removing that vertex from queue, whose neighbour will be visited now
+           node  =  q.dequeue( )
+
+          # processing all the neighbours of the node
+          for all neighbours neighbour of node in graph
+               if neighbour is not visited 
+                        q.enqueue(neighbour)             # Stores w in Q to further visit its neighbour
+                        mark neighbour as visited.
+```
+
+#### Examples
+
+#### Problems
+- [LeetCode](https://leetcode.com/tag/breadth-first-search/)
+
+#### Read about Backtracking
+- [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS) 
+- [GeeksforGeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
