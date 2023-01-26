@@ -74,3 +74,9 @@ BFS(graph, source_node):
 #### Read about Backtracking
 - [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS) 
 - [GeeksforGeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+## Dijkstra Algorithm
+
+## Floyd Warshall Algoithm
+
+## Bellman Ford Algorithm
