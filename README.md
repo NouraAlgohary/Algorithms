@@ -80,3 +80,5 @@ BFS(graph, source_node):
 ## Floyd Warshall Algoithm
 
 ## Bellman Ford Algorithm
+
+## Binary Search Algorithm 
