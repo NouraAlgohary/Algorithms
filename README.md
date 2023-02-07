@@ -114,6 +114,7 @@ It's used for optimizing loops.
 #### Examples
 
 #### Read about Brute Force 
+- [Medium](https://itnext.io/sliding-window-algorithm-technique-6001d5fbe8b3)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 ## Dijkstra Algorithm
