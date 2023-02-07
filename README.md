@@ -1,5 +1,34 @@
 # Algorithms
 
+## Brute Force 
+It goes through all possible choices until the solution is found 
+
+#### Template
+```
+For each element in the array
+  if element equal target value then
+    print success message
+    return its index
+  if element is not found 
+    print Value not found message
+    return -1
+```
+Return all choices
+```
+For each element in the searchList
+  if element equal target value then
+    Add its index to a list of occurrences
+if the list of occurrences is empty
+  raise ValueError
+otherwise
+  return the list occurrences
+```
+#### Examples
+
+#### Read about Brute Force 
+- [Codeacademy](https://www.codecademy.com/learn/learn-data-structures-and-algorithms-with-python/modules/brute-force-algorithms/cheatsheet)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/brute-force-approach-and-its-pros-and-cons/)
+
 ## Backtracking
 Backtracking is used when searching for every possible combinations. It's **check the subsequences/combinations/permutations of some group of letters/numbers**.
 Based on Recursion.
@@ -38,7 +67,7 @@ def backtrack(candidate):
 
 ## Depth First Search (DFS)
 
-#### Read about Backtracking
+#### Read about BFS
 - [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS)
 
 ## Breadth First Search (BFS)
@@ -74,6 +103,18 @@ BFS(graph, source_node):
 #### Read about Backtracking
 - [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS) 
 - [GeeksforGeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+## Sliding Window 
+It's used for optimizing loops. 
+
+#### Template
+```
+
+```
+#### Examples
+
+#### Read about Brute Force 
+- [GeeksforGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 ## Dijkstra Algorithm
 
