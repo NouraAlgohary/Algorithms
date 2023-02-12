@@ -88,6 +88,7 @@ While S is not empty:
 End process when all nodes have been visited.
 ```
 #### Examples
+- [Minimum Fuel Cost to Report to the Capital](https://github.com/NouraAlgohary/Algorithms/tree/main/Depth%20First%20Search%20(DFS)/Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital)
 
 #### Problems
 
