@@ -66,9 +66,35 @@ def backtrack(candidate):
 ## Kadane's Algorithm
 
 ## Depth First Search (DFS)
+The DFS algorithm works as follows:
+1. Start by putting any one of the graph's vertices on top of a stack.
+2. Take the top item of the stack and add it to the visited list.
+3. Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top of the stack.
+4. Keep repeating steps 2 and 3 until the stack is empty.<br/>
+Note: A graph can have more than one DFS traversal.
+![dfs](https://user-images.githubusercontent.com/103903785/218292569-336bba74-eff9-4572-a02d-8414481287c6.png)
 
-#### Read about BFS
+#### Template
+```
+Initialize an empty stack for storage of nodes, S.
+For each vertex u, define u.visited to be false.
+Push the root (first node to be visited) onto S.
+While S is not empty:
+    Pop the first element in S, u.
+    If u.visited = false, then:
+        U.visited = true
+        for each unvisited neighbor w of u:
+            Push w into S.
+End process when all nodes have been visited.
+```
+#### Examples
+
+#### Problems
+
+#### Read about DFS
 - [LeetCode - A Beginners guid to BFS and DFS](https://leetcode.com/discuss/study-guide/1072548/A-Beginners-guid-to-BFS-and-DFS)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+- [Briliant](https://brilliant.org/wiki/depth-first-search-dfs/)
 
 ## Breadth First Search (BFS)
 DFS is used for **traverse or searsh** in a tree or graph. Starting from the root node (level 0) then visiting all the nodes at the next level (level 1) before moving to the next level (level 2)
