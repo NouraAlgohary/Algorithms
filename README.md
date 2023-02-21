@@ -151,3 +151,43 @@ It's used for optimizing loops.
 ## Bellman Ford Algorithm
 
 ## Binary Search Algorithm 
+It's used to search for an element in a sorted array
+
+#### Template
+1. Iteration Method
+```
+    binarySearch(arr, x, low, high)
+        repeat till low = high
+               mid = (low + high)/2
+                   if (x == arr[mid])
+                   return mid
+   
+                   else if (x > arr[mid]) // x is on the right side
+                       low = mid + 1
+   
+                   else                  // x is on the left side
+                       high = mid - 1
+```
+2. Recursive Method (Divide and Conquer approach)
+
+```
+    binarySearch(arr, x, low, high)
+           if low > high
+               return False 
+   
+           else
+               mid = (low + high) / 2 
+                   if x == arr[mid]
+                   return mid
+       
+               else if x > arr[mid]        // x is on the right side
+                   return binarySearch(arr, x, mid + 1, high)
+               
+               else                        // x is on the left side
+                   return binarySearch(arr, x, low, mid - 1) 
+```
+
+#### Examples
+
+#### Read about Binary Search
+[Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
