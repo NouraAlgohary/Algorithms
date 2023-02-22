@@ -188,8 +188,8 @@ It's used to search for an element in a sorted array
 ```
 
 #### Examples
--[Binary Search.cpp](https://github.com/NouraAlgohary/Algorithms/blob/main/Binary%20Search/Binary%20Search.cpp_)
--[Binary Search.py](https://github.com/NouraAlgohary/Algorithms/blob/main/Binary%20Search/Binary%20Search.py)
+- [Binary Search.cpp](https://github.com/NouraAlgohary/Algorithms/blob/main/Binary%20Search/Binary%20Search.cpp_)
+- [Binary Search.py](https://github.com/NouraAlgohary/Algorithms/blob/main/Binary%20Search/Binary%20Search.py)
 
 #### Read about Binary Search
 [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
