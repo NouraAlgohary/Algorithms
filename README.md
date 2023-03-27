@@ -193,3 +193,5 @@ It's used to search for an element in a sorted array
 
 #### Read about Binary Search
 [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
+
+## Floyd’s Cycle-Finding Algorithm
