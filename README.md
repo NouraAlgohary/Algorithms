@@ -199,6 +199,8 @@ Using two pointers(Hare & Tortoise) to traverse the sequence(Linked List) at dif
 - Hare will reach the tail of the linked list(null), which means that there is no cycle in it.
 - Hare will meet tortoise, which means that there is a cycle
 
+![Hare-Tortoise Algorithm](https://user-images.githubusercontent.com/103903785/228295688-0ca0cdaa-c11f-42ca-893f-ebc95143f8ff.png)
+
 #### Pseudocode
 1) Initialize two-pointers and start traversing the linked list.
 2) Move the slow pointer by one position.
