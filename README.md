@@ -194,4 +194,19 @@ It's used to search for an element in a sorted array
 #### Read about Binary Search
 [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
 
-## Floyd’s Cycle-Finding Algorithm
+## Floyd’s Cycle Detection Algorithm (Hare-Tortoise Algorithm)
+Using two pointers(Hare & Tortoise) to traverse the sequence(Linked List) at differernt speeds
+- Hare will reach the tail of the linked list(null), which means that there is no cycle in it.
+- Hare will meet tortoise, which means that there is a cycle
+
+#### Pseudocode
+1) Initialize two-pointers and start traversing the linked list.
+2) Move the slow pointer by one position.
+3) Move the fast pointer by two positions.
+4) If both pointers meet at some point then a loop exists and if the fast pointer meets the end position then no loop exists.
+
+#### Examples
+
+#### Read about Floyd’s Cycle-Finding
+- [Geeks for Geeks](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)
+- [Code Studio](https://www.codingninjas.com/codestudio/library/floyds-cycle-finding-algorithm)
