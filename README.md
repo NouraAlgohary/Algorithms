@@ -153,6 +153,12 @@ It's used for optimizing loops.
 ## Binary Search Algorithm 
 It's used to search for an element in a sorted array
 
+Ex1 
+![Binary Search 1](https://user-images.githubusercontent.com/103903785/228853053-d6eb3551-dd7b-422a-8877-1e95fa55f1b3.png)
+Ex2
+![Binary Search 2](https://user-images.githubusercontent.com/103903785/228853033-786ec4d7-ffca-44ac-b23c-ed6391eb48d4.png)
+
+
 #### Template
 1. Iteration Method
 ```
