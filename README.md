@@ -1,4 +1,18 @@
 # Algorithms
+| No.  | Algorithm | 
+| --| ------------- |
+| 1 | [Brute Force](#brute-force)   |
+| 2 | [Backtracking](#backtracking) |
+| 3 | Kadane's Algorithm |
+| 4 | [Depth First Search (DFS)](#depth-first-search) |
+| 5 | [Breadth First Search (BFS)](#breadth-first-search) |
+| 6 | [Sliding Window](#sliding-window) |
+| 7 | Dijkstra Algorithm |
+| 8 | Floyd Warshall Algoithm |
+| 9 | Bellman Ford Algorithm |
+| 10 | [Binary Search Algorithm](#binary-search-algorithm) |
+| 11 | [Floyd's Cycle Detection Algorithm (Hare-Tortoise Algorithm)](#hare-tortoise-algorithm) |
+| 12 | [Union-Find](#union-find-algorithm)  |
 
 ## Brute Force 
 It goes through all possible choices until the solution is found 
@@ -65,7 +79,7 @@ def backtrack(candidate):
 
 ## Kadane's Algorithm
 
-## Depth First Search (DFS)
+## Depth First Search
 The DFS algorithm works as follows:
 1. Start by putting any one of the graph's vertices on top of a stack.
 2. Take the top item of the stack and add it to the visited list.
@@ -97,7 +111,7 @@ End process when all nodes have been visited.
 - [GeeksforGeeks](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 - [Briliant](https://brilliant.org/wiki/depth-first-search-dfs/)
 
-## Breadth First Search (BFS)
+## Breadth First Search
 DFS is used for **traverse or searsh** in a tree or graph. Starting from the root node (level 0) then visiting all the nodes at the next level (level 1) before moving to the next level (level 2)
 
 ![BFS](https://user-images.githubusercontent.com/103903785/214479205-a14c2dbd-e3b7-445e-86bf-ea101fb9a654.png)
@@ -200,7 +214,7 @@ Ex2
 #### Read about Binary Search
 [Geeks for Geeks](https://www.geeksforgeeks.org/binary-search/)
 
-## Floyd’s Cycle Detection Algorithm (Hare-Tortoise Algorithm)
+## Hare-Tortoise Algorithm
 Using two pointers(Hare & Tortoise) to traverse the sequence(Linked List) at differernt speeds
 - Hare will reach the tail of the linked list(null), which means that there is no cycle in it.
 - Hare will meet tortoise, which means that there is a cycle
