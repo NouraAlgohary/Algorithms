@@ -219,3 +219,29 @@ Using two pointers(Hare & Tortoise) to traverse the sequence(Linked List) at dif
 #### Read about Floyd’s Cycle-Finding
 - [Geeks for Geeks](https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/)
 - [Code Studio](https://www.codingninjas.com/codestudio/library/floyds-cycle-finding-algorithm)
+
+
+## Union-Find Algorithm
+It's used to Find subsets of elements and Union similar subsets together.
+
+#### Pseudocode
+```
+func find( var element )
+  while ( element is not the root ) element = element's parent
+  return element
+end func
+
+func union( var setA, var setB )
+  var rootA = find( setA ), rootB = find( setB )
+  if ( rootA is equal to rootB ) return
+  else
+     set rootB as rootA's parent
+end func
+```
+
+#### Examples
+
+#### Resources
+- [Geeks for Geeks](https://www.geeksforgeeks.org/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/)
+- [Algorithmist](https://algorithmist.com/wiki/Union_find)
+
