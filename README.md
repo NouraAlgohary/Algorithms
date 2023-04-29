@@ -238,6 +238,16 @@ Using two pointers(Hare & Tortoise) to traverse the sequence(Linked List) at dif
 ## Union-Find Algorithm
 It's used to Find subsets of elements and Union similar subsets together.
 
+#### Template
+```
+Initially create a parent[] array to keep track of the subsets.
+Traverse through all the edges:
+Check to which subset each of the nodes belong to by finding the parent[] array till the node and the parent are the same.
+If the two nodes belong to the same subset then they belong to a cycle.
+Otherwise, perform union operation on those two subsets.
+If no cycle is found, return false.
+```
+
 #### Pseudocode
 ```
 func find( var element )
