@@ -153,6 +153,8 @@ It's used for optimizing loops.
 
 ```
 #### Examples
+- [Maximum Number of Vowels in a Substring of Given Length(cpp)](https://github.com/NouraAlgohary/Algorithms/blob/main/Sliding%20Window/Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length(cpp).cpp)
+- [Maximum Number of Vowels in a Substring of Given Length(py)](https://github.com/NouraAlgohary/Algorithms/blob/main/Sliding%20Window/Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length(py).py)
 
 #### Read about Brute Force 
 - [Medium](https://itnext.io/sliding-window-algorithm-technique-6001d5fbe8b3)
