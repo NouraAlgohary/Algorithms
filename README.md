@@ -7,7 +7,7 @@
 | 4 | [Depth First Search (DFS)](#depth-first-search) |
 | 5 | [Breadth First Search (BFS)](#breadth-first-search) |
 | 6 | [Sliding Window](#sliding-window) |
-| 7 | Dijkstra Algorithm |
+| 7 | [Dijkstra Algorithm](#Dijkstra_Algorithm) |
 | 8 | Floyd Warshall Algoithm |
 | 9 | Bellman Ford Algorithm |
 | 10 | [Binary Search Algorithm](#binary-search-algorithm) |
@@ -161,6 +161,18 @@ It's used for optimizing loops.
 - [GeeksforGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)
 
 ## Dijkstra Algorithm
+An algorithm that is used to find the shortest path between two edges/nodes having non-negative edge values.
+
+#### Template
+```
+```
+
+#### Examples
+
+#### Problems
+
+#### Read about Dijkstra Algorithm
+- [GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-dijkstras-shortest-path-algorithm/)
 
 ## Floyd Warshall Algoithm
 
