@@ -7,7 +7,7 @@
 | 4 | [Depth First Search (DFS)](#depth-first-search) |
 | 5 | [Breadth First Search (BFS)](#breadth-first-search) |
 | 6 | [Sliding Window](#sliding-window) |
-| 7 | [Dijkstra Algorithm](#dijkstra_algorithm) |
+| 7 | [Dijkstra Algorithm](#Dijkstra-Algorithm) |
 | 8 | Floyd Warshall Algoithm |
 | 9 | Bellman Ford Algorithm |
 | 10 | [Binary Search Algorithm](#binary-search-algorithm) |
